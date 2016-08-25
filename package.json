@@ -1,0 +1,22 @@
+{
+  "name": "frost-mask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshleyLv/frost-mask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshleyLv/frost-mask/issues"
+  },
+  "homepage": "https://github.com/AshleyLv/frost-mask#readme",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  }
+}

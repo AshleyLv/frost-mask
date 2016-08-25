@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+	<style type="text/css">
+		body{
+			background: #7568a7;
+			font-family: 'Microsoft Yahei';
+			color:#fff;
+		}
+		article{
+			width:60%;
+			margin: 10px auto;
+		}
+	</style>
+</head>
+<link rel="stylesheet" type="text/css" href="css/frostmask.css">
+<body>
+	<article>
+			<h1>Learn Meteor.js Properly</h1>
+	<p>(Learn Meteor and Everything You Need to Know about It)
+At the end of this article, I outline two comprehensive study guides to help you learn Meteor properly. The study guides are for both beginners and seasoned developers. The first study guide, which uses a book, a paid screencast, and some free online resources, teaches you how to build a sophisticated, modern social-media web application with Meteor. And the second study guide, which uses only free resources (one affordable screencast and free online resources), is just as instructive as the first, though you won’t build a specific web application throughout the course.</p>
+<p>
+	I explain exactly what Meteor is, how it differs from typical JavaScript frameworks, what it offers developers specifically, its alternatives and contemporaries, whether you should be excited or skeptical about it, and where to find Meteor jobs. I also enumerate some of the endorsements written by Meteor converts, and I explore the justifiable criticisms, known limitations, and frequently asked questions that many have raised about Meteor. You will learn all this and much more.
+</p>
+<p>
+	I am honored that you have joined me and I am hopeful you will find this article helpful and illuminating and the accompanying study guides and recommended resources sufficiently instructive. If you don’t, then I would have failed and I would like to hear from you; please notify me in the comments below. Don’t hesitate to alert me of any grammatical errors, typos, general errors, misinformation, missing information, outdated content, or incomprehensible sentences or passages. You won’t hurt my feelings, for I am most interested in providing you accurate, clear, and comprehensible material, and only you can determine whether I have done that.
+</p>
+	</article>
+<button id="mask">mask</button>
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script src="js/jquery.frostmask.js"></script>
+<script type="text/javascript">
+	jQuery(function($) {
+		$('#mask').click(function(){
+			$('body').fmask();	
+		});
+		
+	});
+</script>
+</body>
+</html>
